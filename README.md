@@ -18,6 +18,10 @@
 * **`farmaci_filtrati_clean.txt`**: Cleaned database mapping drugs to their specific target genes, sourced from DrugBank. You can substitute this with your own curated list of drugs and corresponding targets.
 * **`Phenopedia.txt`**: Disease ontology and phenotype database used for context scoring downloaded from Phenopedia.
 
+### Documentation
+The comprehensive theoretical background, methodology, and biological conclusions underlying this pipeline are detailed in my thesis. The full document is published and accessible via the university repository (Politesi):
+* **A network medicine approach for drug repurposing in arrhythmogenic cardiomyopathy**
+
 ## Prerequisites
 To run this pipeline, you need **R** installed along with the following primary libraries:
 * `igraph` (Network manipulation and topological calculations)
