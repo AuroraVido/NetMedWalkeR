@@ -12,7 +12,7 @@
 * **`functions.R`**: Core algorithmic library. Contains functions for graph topology analysis, Largest Connected Component (LCC) extraction, Jaccard-based context scoring, and significance testing.
 * **`main.R`**: The main execution script. It loads the data, prepares the topological graph, executes the Random Walk with Restart (RWR) algorithm, evaluates statistical separation, and extracts the final disease module for downstream pathway analysis (e.g., via Metascape).
 **CRITICAL: Do not clear your R workspace or restart your R session after execution of `main.R` if you want to run `Extra/TargetsAnalysis.R`.**
-* **`Extra/TargetsAnalysis.R`**: Supplementary script for downstream network and statistical analysis of the top candidate drug targets (*Long execution time depending on your CPU capabilities*)
+* **`Extra/TargetsAnalysis.R`**: Supplementary script for downstream network and statistical analysis of the top candidate drug targets (*long execution time depending on your CPU capabilities*)
 
 ### Data Files (Inputs)
 * **`ACM genes.txt` (or custom disease genes)**: List of genes associated with the disease of interest. Replace this file with the gene list of any other pathology to adapt the pipeline.
