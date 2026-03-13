@@ -16,7 +16,7 @@
 * **`ACM genes.txt` (or custom disease genes)**: List of genes associated with the disease of interest. Replace this file with the gene list of any other pathology to adapt the pipeline.
 * **`interactome_mapped.txt`**: The baseline protein-protein interaction (PPI) network downloaded from STRING (nodes and weighted edges). You can replace this with any other custom interactome if needed.
 * **`farmaci_filtrati_clean.txt`**: Cleaned database mapping drugs to their specific target genes, sourced from DrugBank. You can substitute this with your own curated list of drugs and corresponding targets.
-* **`Phenopedia.txt`**: Disease ontology and phenotype database used for context scoring.
+* **`Phenopedia.txt`**: Disease ontology and phenotype database used for context scoring downloaded from Phenopedia.
 
 ## Prerequisites
 To run this pipeline, you need **R** installed along with the following primary libraries:
