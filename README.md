@@ -1,6 +1,4 @@
-# NetMedWalkeR 
-
-# Network-Based Drug Repurposing Pipeline
+# NetMedWalkeR: Network-Based Drug Repurposing Pipeline
 
 ## Overview
 **This repository contains an R-based computational pipeline for network-based drug repurposing developed for my thesis. While originally applied to Arrhythmogenic Cardiomyopathy (ACM), this pipeline is highly adaptable to any other disease**. By simply replacing the input list of disease-associated genes, the algorithm recalculates topological and context-specific relevance scores to identify novel therapeutic candidates for the new target condition. It integrates protein-protein interaction (PPI) networks, disease-gene associations, and drug-target databases to compute context-specific relevance scores and extract disease modules. 
