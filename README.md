@@ -41,5 +41,5 @@ Install missing packages using `install.packages("package_name")`.
 
 ## Output
 Running `main.R` will generate:
-1. **Topological and Validation Plots**: Plot of the network scale-free distribution and plot of the distribution of drugs based on the Network Separation Metric.
+1. **Topological and Validation Plots**
 2. **Candidate Drugs List (.csv)**: A final dataset containing the statistically significant drug candidates identified for repurposing.
